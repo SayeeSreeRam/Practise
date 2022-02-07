@@ -1,0 +1,51 @@
+.navContainer{
+    display: flex;
+    background-color:beige;
+    height:15vh;
+    width:100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: inline-block;
+    height:auto;
+    width:60px;
+    text-align: center;
+    background-color: black;
+    border:1px solid snow;
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.input{
+    width:300px;
+    height: 30px;
+    background-color: gainsboro;
+    border:1px solid grey;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: left;
+    width: 600px;
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+    /* width:30px; */
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.innerdiv{
+    text-align: center;
+}
